@@ -110,14 +110,13 @@
   }
 
   /* Faixa com vídeo, de ponta a ponta */
-  .faixa-video{position:relative;width:100%;height:clamp(240px,44vw,620px);background:var(--noite);overflow:hidden;border-top:2px solid var(--dourado);border-bottom:2px solid var(--dourado)}
-  .faixa-video video{width:100%;height:100%;object-fit:cover;object-position:center top;display:block}
-  .faixa-video::after{content:"";position:absolute;inset:0;pointer-events:none;box-shadow:inset 0 30px 40px -20px rgba(10,21,41,.55),inset 0 -30px 40px -20px rgba(10,21,41,.35)}
+  .faixa-video{position:relative;width:100%;background:#0a1529;overflow:hidden;border-top:1px solid rgba(201,162,74,.35);border-bottom:1px solid rgba(201,162,74,.35)}
+  .faixa-video video{width:100%;max-width:1600px;aspect-ratio:16/9;object-fit:cover;display:block;margin:0 auto;background:#0a1529}
   .video-ctrl{position:absolute;right:20px;bottom:20px;z-index:2;width:46px;height:46px;border-radius:50%;border:1.5px solid rgba(232,207,138,.7);background:rgba(10,21,41,.75);cursor:pointer;display:flex;align-items:center;justify-content:center}
   .video-ctrl:hover{background:var(--noite)}
   .ic-pausa{width:12px;height:14px;border-left:4px solid var(--ouro-claro);border-right:4px solid var(--ouro-claro)}
   .video-ctrl.parado .ic-pausa{width:0;height:0;border-left:13px solid var(--ouro-claro);border-right:0;border-top:8px solid transparent;border-bottom:8px solid transparent;margin-left:4px}
-  @media(max-width:640px){.video-ctrl{right:12px;bottom:12px;width:40px;height:40px}}
+  @media(max-width:640px){.video-ctrl{right:8px;bottom:8px;width:32px;height:32px}.ic-pausa{width:9px;height:11px;border-left-width:3px;border-right-width:3px}}
 
   /* Faixa de segmentos */
   .segmentos{background:var(--nevoa);border-bottom:1px solid var(--linha);padding:26px 0}
@@ -500,8 +499,8 @@
 </section>
 
 <div class="faixa-video">
-  <video id="video-crm" autoplay muted loop playsinline preload="auto" poster="crm-demo-capa.jpg" aria-label="Vídeo do CRM sendo usado: painel, funil de vendas, cobranças, contratos, notas fiscais, agenda e relatórios">
-    <source src="crm-demo.mp4" type="video/mp4">
+  <video id="video-crm" autoplay muted loop playsinline preload="auto" poster="yl-anuncio-capa.jpg" aria-label="Vídeo de apresentação da YL: funil de vendas, cobranças, contratos assinados pelo celular e nota fiscal em 1 clique">
+    <source src="yl-anuncio.mp4" type="video/mp4">
   </video>
   <button class="video-ctrl" id="video-ctrl" aria-label="Pausar vídeo"><span class="ic-pausa"></span></button>
 </div>
