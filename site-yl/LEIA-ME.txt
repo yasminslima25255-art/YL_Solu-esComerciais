@@ -1,0 +1,18 @@
+SITE YL SOLUÇÕES COMERCIAIS — COMO COLOCAR NO AR (GRÁTIS)
+
+PASSO 1 — Subir no GitHub
+1. Entre em github.com e clique em "New" (novo repositório).
+2. Dê um nome, por exemplo: site-yl. Deixe "Public" e clique em "Create repository".
+3. Na página que abrir, clique em "uploading an existing file".
+4. Arraste os arquivos index.html e logo.svg (os arquivos, não a pasta).
+5. Clique em "Commit changes".
+
+PASSO 2 — Publicar na Vercel
+1. Entre em vercel.com e clique em "Add New..." > "Project".
+2. Escolha o repositório site-yl e clique em "Import".
+3. Não precisa mudar nada. Clique em "Deploy".
+4. Pronto! O site fica num endereço tipo site-yl.vercel.app
+
+PARA MUDAR ALGO DEPOIS
+- Edite o arquivo direto no GitHub (ícone do lápis) e salve.
+- A Vercel atualiza o site sozinha em menos de 1 minuto.
