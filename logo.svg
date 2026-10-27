@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <circle cx="100" cy="100" r="96" fill="#0f1f3d"/>
+  <circle cx="100" cy="100" r="88" fill="none" stroke="#c9a24a" stroke-width="5"/>
+  <circle cx="100" cy="100" r="80" fill="none" stroke="#c9a24a" stroke-width="1" opacity=".5"/>
+  <text x="84" y="128" text-anchor="middle" font-family="Georgia, 'Playfair Display', serif" font-size="88" font-weight="700" fill="#ffffff">Y</text>
+  <text x="124" y="128" text-anchor="middle" font-family="Georgia, 'Playfair Display', serif" font-size="88" font-weight="700" fill="#c9a24a">L</text>
+</svg>
